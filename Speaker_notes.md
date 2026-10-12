@@ -311,3 +311,42 @@ Thank you all for your time and engagement today.
 
 I'll open it up for any questions now. If anything comes up later, or you'd like to talk through a specific case, please do reach out.
 
+## Additional slide A: Case 3 walkthrough (full note)
+
+This is a full case note from L2. Unlike the first two cases, where we looked at snippets, here is the whole note, and it's a good example of the structure we've been talking about today.
+
+Give the room a minute to read it. Before we break it down, ask: what do you notice about how this note is put together, compared with Cases 1 and 2?
+
+Points to draw out:
+- It opens with the alerted activity: the rule (high cumulative pay-to-card gambling amount over 30 days), the alerted period (August 2026), the value and volume ($94,580.57 across 48 transactions), and the specific features that made it unusual (repeated amounts of 9,594 and 9,599 RON, and transactions within the same minute).
+- It reads as an investigation, not a checklist. Each section builds towards the conclusion.
+- It checks pay-ins against payouts, which is exactly the point we made about gambling withdrawals. It doesn't just say "these are probably winnings"; it shows the money going in.
+
+On the next slide we'll break it down section by section.
+
+## Additional slide B: Case 3 broken down
+
+Here's the same note split into the building blocks from earlier. Walk through each one.
+
+Alerted activity: the note starts with what alerted: $94,580.57 across 48 pay-to-card payouts in August, the repeated amounts and the near-simultaneous transactions. It says what is unusual: a significant departure from the cardholder's baseline.
+
+Merchant profile: the merchant is identified, its platforms are named, and the note explains why pay-to-card payouts are expected for this business: they are how customers withdraw betting and casino winnings.
+
+Customer profile: who the cardholder is, where the card is issued, the card type and its risk rating, the transaction currency, and the fact that they only transact with this one merchant.
+
+Historical behaviour: this is the strongest section. It doesn't stop at the alerted card. It sets out pay-ins against payouts over a longer period, identifies a second associated card used mainly to fund the account, and combines the two. The result is a clear net loss position of $48,137.59. That's the evidence behind the "these are gambling winnings" explanation.
+
+OSINT: recorded, including the negative result: no adverse media, enforcement actions, PEP matches or sanctions. One line, but it shows the check was done.
+
+RFI documentation: it follows the logic flow. Why the RFI was sent (the payout spike and no verifiable information on the cardholder's background), what was asked (source of funds and wealth, and whether payouts fit the profile), what happened (no response), and how the case was concluded without it (using internal transactional data).
+
+Conclusion and rationale: it addresses each red flag. The payout volume is set against the deposits. The repeated amounts are explained by the platform's per-transaction payout cap of around 10,000 RON, rather than structuring. And the outcome is clearly linked back to the evidence.
+
+Optional stretch discussion, if time allows: even a strong note can be tightened. Ask the room if they can spot anything. Points to have ready:
+- Language. "Fully supported", "substantial" and "presents no immediate AML risk" are stronger than they need to be. Describing the amounts as "structured" in the opening, then concluding it isn't structuring, could confuse a reader. "Repeated amounts" is more neutral.
+- Evidence for the explanation. Where does the ~10,000 RON cap come from? Citing the source makes the explanation testable.
+- Loose ends. The near-simultaneous transactions are raised in the opening but not explicitly addressed in the conclusion. Every red flag raised should be closed off.
+- Timing of funds. The associated card's deposits are from August to September, while the payouts run from June to August. Is it clear that deposits came before the withdrawals they're said to support?
+- The unanswered RFI. Was a chaser sent? And should the "medium risk" BIN be explained, or is it a fact without a "so what"?
+
+The overall message: this is the standard we're aiming for. It's specific, structured, evidenced, and every section serves the conclusion.
