@@ -360,7 +360,7 @@ History tells us whether today's activity is new, a continuation of something we
 - Timeframe scope: is there relevant activity outside the alerted window, such as small test transactions before a spike, or linked cards funding the account? If you widen the scope, say why.
 - Business rationale: is there a commercial reason, such as a promotion, a seasonal peak or confirmed growth? Evidence it. "Likely seasonal" is an assumption, not a rationale.
 
-Remember this rule: prior history was checked in every case in the QA review. What's missing is explaining whether that history supports or weakens today's outcome.
+To be clear, the QA review found prior history was checked in every case; what's often missing is what it means. Remember this rule: history should either support or weaken today's outcome, so say which.
 
 ## Customer Profile (Who is it?), revised to match slide 6
 
