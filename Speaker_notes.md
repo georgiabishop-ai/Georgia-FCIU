@@ -350,3 +350,29 @@ Optional stretch discussion, if time allows: even a strong note can be tightened
 - The unanswered RFI. Was a chaser sent? And should the "medium risk" BIN be explained, or is it a fact without a "so what"?
 
 The overall message: this is the standard we're aiming for. It's specific, structured, evidenced, and every section serves the conclusion.
+
+## Additional slide C: Historical Behaviour (past indicators)
+
+Once we've looked at the alerted activity, the next question is: how does this compare with what this merchant or customer has done before? History gives us the context to judge whether today's activity is new, a continuation of something we already know about, or getting worse.
+
+Prior Alerts: known profile and outcomes?
+- Check whether the merchant or cardholder has been alerted before, and what happened: how the cases were resolved, whether an RFI was sent, whether anything was escalated, and any previous SAR outcomes where you have visibility of them.
+- Then answer the "so what": does that history change today's assessment? "This merchant has been flagged before" isn't enough on its own. Is the current alert the same pattern as last time, a new pattern, or an escalation of it?
+- Watch for repeat behaviour. A customer who keeps triggering the same alert, with each one discounted on its own, may be showing a pattern we only see when we look across cases.
+- Be careful not to rely on a previous outcome without checking it still applies. "Previously discounted as a false positive" only helps if the circumstances are the same.
+
+Baseline Shift: deviated from the norm? Why?
+- Compare the alerted period with the merchant's or customer's own normal behaviour: velocity jumps, unusual volumes, or changes in where funds are flowing, such as new countries or a new pay-in and payout mix.
+- The key question is why. A shift isn't automatically suspicious, but it does need explaining.
+- Remember Case 1: the weekly volume rule fired because the cardholder had no activity in the previous four weeks. Looking at the history explained the alert straight away.
+
+Timeframe Scope: transactions outside the window?
+- Start with the rule's look-back period, but look beyond it where it adds value. Activity just before or after the alerted window can change the picture.
+- For example: small test transactions before a spike, which can indicate card testing; clusters of payments that settle later; or linked cards that fund the account outside the alerted period, as in Case 3.
+- If you look outside the window, say so in the note and explain why it's relevant.
+
+Business Rationale: commercial justification?
+- Is there a legitimate business reason for the change? For example, a promotional campaign, a seasonal peak, a new product, or confirmed growth in the business.
+- As with any explanation, it needs evidence: the merchant's website or social media, OSINT on wider events, onboarding information, or an RFI response. "Likely due to seasonal sales" without evidence is an assumption, not a rationale.
+
+In the note: summarise the relevant history in a sentence or two, say how today's activity compares with it, and state whether the history supports or weakens the outcome. The QA review found that prior case history was checked in every case. The opportunity now is to make sure we explain what that history means for the current alert.
